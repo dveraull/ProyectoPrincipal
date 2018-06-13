@@ -43,8 +43,8 @@ class ViewController: UIViewController {
             let storyboard = UIStoryboard(name: "Register", bundle: matches.last!)
             let viewController = storyboard.instantiateInitialViewController()
             viewController?.definesPresentationContext = true
-            viewController?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-            viewController?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+            viewController?.modalPresentationStyle = UIModalPresentationStyle.popover
+            viewController?.modalTransitionStyle = UIModalTransitionStyle.coverVertical
             self.present(viewController!, animated: true, completion: nil)
         }
         

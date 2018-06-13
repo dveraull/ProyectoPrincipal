@@ -10,6 +10,6 @@ target 'ProyectoPrincipal' do
 
   # Pods for ProyectoPrincipal
   
-  pod 'ModuloRegistrar', '0.0.6'
+  pod 'ModuloRegistrar', '0.0.7'
 
 end
