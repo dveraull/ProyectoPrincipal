@@ -18,26 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DY1-vH-rkT">
-                                <rect key="frame" x="57" y="196" width="260" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tyF-Bv-AW0">
+                                <rect key="frame" x="57" y="257" width="260" height="30"/>
                                 <color key="backgroundColor" red="0.88184219600000002" green="0.90593177079999998" blue="0.88629621270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CXV-3q-dya"/>
+                                    <constraint firstAttribute="width" constant="260" id="DAc-qh-bBK"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tyF-Bv-AW0">
-                                <rect key="frame" x="57" y="258" width="260" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.88184219600000002" green="0.90593177079999998" blue="0.88629621270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCF-Ls-Fe1">
-                                <rect key="frame" x="119" y="370" width="121" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCF-Ls-Fe1">
+                                <rect key="frame" x="127" y="360" width="121" height="33"/>
                                 <color key="backgroundColor" red="0.53020167350000003" green="0.49808502199999999" blue="0.48236483340000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="6N7-DJ-pAh"/>
+                                    <constraint firstAttribute="width" constant="121" id="6aK-hx-02Z"/>
+                                </constraints>
                                 <state key="normal" title="Registrarse">
                                     <color key="titleColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -45,16 +43,40 @@
                                     <action selector="btnIngresarPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24l-gE-I6X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CT-e3-hL8">
-                                <rect key="frame" x="119" y="329" width="121" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CT-e3-hL8">
+                                <rect key="frame" x="127" y="317" width="121" height="33"/>
                                 <color key="backgroundColor" red="0.76684993509999999" green="0.67866337300000001" blue="0.60788530110000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="yhk-48-DKF"/>
+                                    <constraint firstAttribute="height" constant="33" id="zZk-23-WiC"/>
+                                </constraints>
                                 <state key="normal" title="Ingresar">
                                     <color key="titleColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DY1-vH-rkT">
+                                <rect key="frame" x="57" y="202" width="260" height="30"/>
+                                <color key="backgroundColor" red="0.88184219600000002" green="0.90593177079999998" blue="0.88629621270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="f2i-Tg-81a"/>
+                                    <constraint firstAttribute="width" constant="260" id="zq9-yH-glz"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.64786773919999996" green="0.77273494009999999" blue="0.71377593279999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8CT-e3-hL8" firstAttribute="top" secondItem="tyF-Bv-AW0" secondAttribute="bottom" constant="30" id="941-iT-KG5"/>
+                            <constraint firstItem="tyF-Bv-AW0" firstAttribute="top" secondItem="DY1-vH-rkT" secondAttribute="bottom" constant="25" id="Byt-jR-dS3"/>
+                            <constraint firstItem="DY1-vH-rkT" firstAttribute="centerX" secondItem="tyF-Bv-AW0" secondAttribute="centerX" id="Fil-HH-1f5"/>
+                            <constraint firstItem="8CT-e3-hL8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hBL-4X-Zco"/>
+                            <constraint firstItem="tyF-Bv-AW0" firstAttribute="centerX" secondItem="8CT-e3-hL8" secondAttribute="centerX" id="kSz-yy-5gL"/>
+                            <constraint firstItem="jCF-Ls-Fe1" firstAttribute="centerX" secondItem="8CT-e3-hL8" secondAttribute="centerX" id="spj-h4-Iaj"/>
+                            <constraint firstItem="jCF-Ls-Fe1" firstAttribute="top" secondItem="8CT-e3-hL8" secondAttribute="bottom" constant="10" id="uub-1q-7jY"/>
+                            <constraint firstItem="8CT-e3-hL8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xkP-Lk-cdi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

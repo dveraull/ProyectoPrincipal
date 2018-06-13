@@ -99,6 +99,7 @@
 				397B647A20D0539500406DDE /* Sources */,
 				397B647B20D0539500406DDE /* Frameworks */,
 				397B647C20D0539500406DDE /* Resources */,
+				8E4120954778C85E6D74890E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +157,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8E4120954778C85E6D74890E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoPrincipal/Pods-ProyectoPrincipal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ModuloRegistrar/ModuloRegistrar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModuloRegistrar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoPrincipal/Pods-ProyectoPrincipal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BCB3DD174C701044C95B912B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
