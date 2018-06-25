@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391D393720DD57DF00A78FAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D393620DD57DF00A78FAB /* HomeViewController.swift */; };
 		397B648220D0539500406DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B648120D0539500406DDE /* AppDelegate.swift */; };
 		397B648420D0539500406DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B648320D0539500406DDE /* ViewController.swift */; };
 		397B648720D0539500406DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397B648520D0539500406DDE /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2981C018A4FC7F496774E606 /* Pods-ProyectoPrincipal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPrincipal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoPrincipal/Pods-ProyectoPrincipal.debug.xcconfig"; sourceTree = "<group>"; };
+		391D393620DD57DF00A78FAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		397B647E20D0539500406DDE /* ProyectoPrincipal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPrincipal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397B648120D0539500406DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		397B648320D0539500406DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				397B648820D0539A00406DDE /* Assets.xcassets */,
 				397B648A20D0539A00406DDE /* LaunchScreen.storyboard */,
 				397B648D20D0539A00406DDE /* Info.plist */,
+				391D393620DD57DF00A78FAB /* HomeViewController.swift */,
 			);
 			path = ProyectoPrincipal;
 			sourceTree = "<group>";
@@ -164,11 +167,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoPrincipal/Pods-ProyectoPrincipal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FavoriteTableView/FavoriteTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/ModuloRegistrar/ModuloRegistrar.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FavoriteTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModuloRegistrar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -202,6 +209,7 @@
 			files = (
 				397B648420D0539500406DDE /* ViewController.swift in Sources */,
 				397B648220D0539500406DDE /* AppDelegate.swift in Sources */,
+				391D393720DD57DF00A78FAB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
