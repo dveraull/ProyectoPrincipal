@@ -26,7 +26,8 @@ class HomeViewController: UIViewController, FavoriteTableViewDelegate{
             Favorite(title: "Cuenta BBVA", subtitle: "234235-2354234-432")
         ]
         self.tblFavoritos.delegateFavorite = self
-        self.tblFavoritos.configure(list: listFavorite)
+        self.tblFavoritos.configure(list: listFavorite)        
+//        self.tblFavoritos.configure()
     
     }
 

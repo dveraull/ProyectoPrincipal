@@ -12,7 +12,7 @@ target 'ProyectoPrincipal' do
   # Pods for ProyectoPrincipal
   
   pod 'ModuloRegistrar', '0.0.7'
-  pod 'FavoriteTableView', '2.1'
+  pod 'FavoriteTableView', '4.0'
   
   pod 'Toast-Swift', '~> 3.0.1'
   
